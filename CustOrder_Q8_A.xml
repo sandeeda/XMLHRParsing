@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Root xmlns="http://www.adventure-works.com">
+<?xml-stylesheet type="text/xsl" href="CustOrder_Q8_A.xsl"?>
+
+<Root>
   <!-- CUSTOMER Data -->
   <Customers>
     <Customer CustomerID="GREAL">
