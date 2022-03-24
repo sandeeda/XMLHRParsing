@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!-- /***************************************************************************** 
+* ITC5202 – Project1 * We declare that this assignment is our own work in accordance with Humber Academic * Policy. 
+* No part of this assignment has been copied manually or electronically from any other * source (including web sites) or distributed to other students. * 
+*	Names: Sandeep Das, Rohan Vasudev Patel 
+*	Student ID: N01472825 , N01469929
+*	Date: 28th Feb 2022 
+* * **************************
+ -->
 <xsl:stylesheet version="1.0"
      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
    <xsl:template match="/">

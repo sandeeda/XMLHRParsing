@@ -1,10 +1,13 @@
 <!doctype html>
 <html>
-<!-- ITC5202: Professor: Shahdad -->
-<!-- 
-   Team Member: 
-   References : https://codingshiksha.com/javascript/jspdf-tutorial-to-export-html-table-to-excel-and-pdf-document-using-jspdf-autotable-library-in-javascript-full-tutorial-for-beginners/
--->
+<!-- /***************************************************************************** 
+* ITC5202 – Project1 * We declare that this assignment is our own work in accordance with Humber Academic * Policy. 
+* No part of this assignment has been copied manually or electronically from any other * source (including web sites) or distributed to other students. * 
+*	Names: Sandeep Das, Rohan Vasudev Patel 
+*	Student ID: N01472825 , N01469929
+*	Date: 28th Feb 2022 
+* * **************************
+ -->
 <head>
   <title>Search Customer</title>
   <meta charset="utf-8">
@@ -52,12 +55,8 @@
       document.getElementById("result").innerHTML = "";
       let findCustomerId = document.getElementById("textfield").value;
       for (let i = 0 ; i< customers.length ; i++){
-        //console.log(customers[i].attributes[0].value);
-        //console.log(findCustomerId);
 
-
-
-        if((customers[i].attributes[0].value).includes(findCustomerId.toUpperCase())  && findCustomerId != ""){
+             if((customers[i].attributes[0].value).includes(findCustomerId.toUpperCase())  && findCustomerId != ""){
             for (j=0;j<orders.length;j++){
               if(orders[j].attributes[0].value == (customers[i].attributes[0].value)){
                 console.log("Found");
@@ -82,15 +81,9 @@
                   output+="Not yet Shipped";
                   output+="</td></tr>";
                 }
-                
-
               }
-            }
-            //console.log("Found");
-            
+            }  
         }
-
-
       }
       if(document.getElementById("textfield").value != ""){
         output+="</table>";
